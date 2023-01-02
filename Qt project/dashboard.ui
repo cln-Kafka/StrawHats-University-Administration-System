@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dashboard</class>
+ <widget class="QDialog" name="Dashboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>886</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>866</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QTabWidget" name="tabWidget_dashboard">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="tabPosition">
+          <enum>QTabWidget::North</enum>
+         </property>
+         <property name="tabShape">
+          <enum>QTabWidget::Rounded</enum>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="tabsClosable">
+          <bool>false</bool>
+         </property>
+         <property name="movable">
+          <bool>false</bool>
+         </property>
+         <property name="tabBarAutoHide">
+          <bool>false</bool>
+         </property>
+         <widget class="QWidget" name="Classes_tab">
+          <attribute name="title">
+           <string>Classes</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="1" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <item>
+              <widget class="QTableWidget" name="tableWidget_classes">
+               <row>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </row>
+               <column>
+                <property name="text">
+                 <string>Courses</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Code</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_class_students">
+               <row>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </row>
+               <column>
+                <property name="text">
+                 <string>Student</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Grade</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="1">
+            <widget class="QScrollArea" name="scrollArea_4">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_8">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>408</width>
+                <height>523</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_12">
+               <item row="0" column="0">
+                <widget class="QTabWidget" name="Classes_sidetab">
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="tab_24">
+                  <attribute name="title">
+                   <string>Info</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_14">
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_8">
+                     <property name="text">
+                      <string>Course name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit"/>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_9">
+                     <property name="text">
+                      <string>Code</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QTextEdit" name="textEdit_4"/>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_10">
+                     <property name="text">
+                      <string>Hall</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QTextEdit" name="textEdit_5"/>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_11">
+                     <property name="text">
+                      <string>Time</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QTextEdit" name="textEdit_6"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_12">
+                     <property name="text">
+                      <string>Professors</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QTextEdit" name="textEdit_Professors_for_class"/>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_25">
+                  <attribute name="title">
+                   <string>Add </string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_9">
+                   <item row="0" column="2">
+                    <widget class="QLineEdit" name="lineEdit_add_class_name"/>
+                   </item>
+                   <item row="0" column="0" colspan="2">
+                    <widget class="QLabel" name="label_3">
+                     <property name="text">
+                      <string>Name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_5">
+                     <property name="text">
+                      <string>Time</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_6">
+                     <property name="text">
+                      <string>Hall</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="2">
+                    <widget class="QLineEdit" name="lineEdit_add_time"/>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_4">
+                     <property name="text">
+                      <string>Code</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QLineEdit" name="lineEdit_add_class_code"/>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QLineEdit" name="lineEdit_add_hall"/>
+                   </item>
+                   <item row="5" column="0" colspan="3">
+                    <widget class="QPushButton" name="pushButton">
+                     <property name="text">
+                      <string>Add</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0" colspan="3">
+                    <spacer name="verticalSpacer_5">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_32">
+                  <attribute name="title">
+                   <string>Delete </string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_13">
+                   <item row="2" column="0">
+                    <widget class="QPushButton" name="pushButton_Delete_course">
+                     <property name="text">
+                      <string>Delete</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_2">
+                     <item>
+                      <widget class="QLabel" name="label_7">
+                       <property name="text">
+                        <string>Course name</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="lineEdit_Delete_course"/>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="1" column="0">
+                    <spacer name="verticalSpacer_6">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_2">
+                  <attribute name="title">
+                   <string>Add a student</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_10">
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_22">
+                     <property name="text">
+                      <string>Course name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Add_grade_to_course_2"/>
+                   </item>
+                   <item row="5" column="0" colspan="2">
+                    <layout class="QHBoxLayout" name="horizontalLayout_8">
+                     <item>
+                      <widget class="QPushButton" name="pushButton_Save_student">
+                       <property name="text">
+                        <string>Save</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_Cancel_student">
+                       <property name="text">
+                        <string>Cancel</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_21">
+                     <property name="text">
+                      <string>Grade</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_13">
+                     <property name="text">
+                      <string>First name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Add_student_last_name_to_course"/>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_14">
+                     <property name="text">
+                      <string>Last Name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Add_student_first_name_to_course"/>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Add_student_to_course"/>
+                   </item>
+                   <item row="4" column="1">
+                    <spacer name="verticalSpacer_2">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_3">
+                  <attribute name="title">
+                   <string>Add a professor</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_15">
+                   <item row="2" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Professor_last_name_to_course"/>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_23">
+                     <property name="text">
+                      <string>Course Name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Professor__to_course"/>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_24">
+                     <property name="text">
+                      <string>Last name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_15">
+                     <property name="text">
+                      <string>First name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0" colspan="2">
+                    <layout class="QHBoxLayout" name="horizontalLayout">
+                     <item>
+                      <widget class="QPushButton" name="pushButton_Save_professor">
+                       <property name="text">
+                        <string>Save</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_Cancel_professor">
+                       <property name="text">
+                        <string>Cancel</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Professor_first_name_to_course"/>
+                   </item>
+                   <item row="3" column="0" colspan="2">
+                    <spacer name="verticalSpacer">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item row="2" column="0" colspan="2">
+            <widget class="QPushButton" name="pushButto_exportClasses">
+             <property name="text">
+              <string>Export data of all classes</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2">
+            <widget class="QLineEdit" name="lineEdit_search_class">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="dragEnabled">
+              <bool>false</bool>
+             </property>
+             <property name="readOnly">
+              <bool>false</bool>
+             </property>
+             <property name="placeholderText">
+              <string>ٍٍSearch for a class</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="Student_tab">
+          <attribute name="title">
+           <string>Students</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="1" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QTableWidget" name="tableWidget_students">
+               <property name="sortingEnabled">
+                <bool>false</bool>
+               </property>
+               <row>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </row>
+               <column>
+                <property name="text">
+                 <string>Name</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_Course_grade">
+               <row>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </row>
+               <column>
+                <property name="text">
+                 <string>Course</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Grade</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="2" column="0" colspan="2">
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <item>
+              <widget class="QPushButton" name="pushButton_exportStudents">
+               <property name="text">
+                <string>Export data of all students</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="1">
+            <widget class="QScrollArea" name="scrollArea_3">
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_7">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>408</width>
+                <height>521</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_4">
+               <item row="0" column="1">
+                <widget class="QTabWidget" name="Students_sidetab">
+                 <property name="currentIndex">
+                  <number>3</number>
+                 </property>
+                 <widget class="QWidget" name="tab_28">
+                  <attribute name="title">
+                   <string>Info</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_16">
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_29">
+                     <property name="text">
+                      <string>First name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit_3"/>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_30">
+                     <property name="text">
+                      <string>Second name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QTextEdit" name="textEdit_12"/>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_31">
+                     <property name="text">
+                      <string>Age</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QTextEdit" name="textEdit_13"/>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_32">
+                     <property name="text">
+                      <string>Mobile</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QTextEdit" name="textEdit_14"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_33">
+                     <property name="text">
+                      <string>Email</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QTextEdit" name="textEdit_15"/>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_29">
+                  <attribute name="title">
+                   <string>Add </string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_8">
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="lineEdit_student_first_name"/>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLineEdit" name="lineEdit_student_age"/>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="lineEdit_student_last_name"/>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_34">
+                     <property name="text">
+                      <string>First name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_42">
+                     <property name="text">
+                      <string>Mobile</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="0" colspan="2">
+                    <layout class="QHBoxLayout" name="horizontalLayout_9">
+                     <item>
+                      <widget class="QPushButton" name="pushButton_Add_student">
+                       <property name="text">
+                        <string>Add</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_cancel_adding_student">
+                       <property name="text">
+                        <string>Cancel</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QLineEdit" name="lineEdit_student_mobile"/>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_36">
+                     <property name="text">
+                      <string>Age</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="1">
+                    <widget class="QLineEdit" name="lineEdit_student_grade"/>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_37">
+                     <property name="text">
+                      <string>Second name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_35">
+                     <property name="text">
+                      <string>Email</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="0">
+                    <widget class="QLabel" name="label_46">
+                     <property name="text">
+                      <string>Total grade</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QLineEdit" name="lineEdit_student_email"/>
+                   </item>
+                   <item row="6" column="0" colspan="2">
+                    <spacer name="verticalSpacer_3">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_36">
+                  <attribute name="title">
+                   <string>Delete </string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_17">
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_38">
+                     <property name="text">
+                      <string>First name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="lineEdit_delete_student_first_name"/>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="lineEdit_delete_student_last_name"/>
+                   </item>
+                   <item row="3" column="0" colspan="2">
+                    <widget class="QPushButton" name="pushButton_Delete_student">
+                     <property name="text">
+                      <string>Delete</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_47">
+                     <property name="text">
+                      <string>Second name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0" colspan="2">
+                    <spacer name="verticalSpacer_8">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_4">
+                  <attribute name="title">
+                   <string>Add a course</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_18">
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_50">
+                     <property name="text">
+                      <string>Grade</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="lineEdit_add_course_to_student_second"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QLineEdit" name="lineEdit_add_course_grade"/>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="lineEdit_add_course_to_student_first"/>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_27">
+                     <property name="text">
+                      <string>Student second name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_26">
+                     <property name="text">
+                      <string>Student first name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QComboBox" name="comboBox_add_student_to_course"/>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_25">
+                     <property name="text">
+                      <string>Course</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="0" colspan="2">
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                     <item>
+                      <widget class="QPushButton" name="pushButton_save_course_to_student">
+                       <property name="text">
+                        <string>Save</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_cancel_add_course_to_student">
+                       <property name="text">
+                        <string>Cancel</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="4" column="0" colspan="2">
+                    <spacer name="verticalSpacer_9">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2">
+            <widget class="QLineEdit" name="lineEdit_search_student">
+             <property name="placeholderText">
+              <string>Search for a student</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="Professors_tab">
+          <attribute name="title">
+           <string>Professors</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="0" column="0" colspan="4">
+            <widget class="QLineEdit" name="lineEdit_search_professor">
+             <property name="placeholderText">
+              <string>Search for a professor</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" colspan="2">
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QTableWidget" name="tableWidget_professors">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <row>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </row>
+               <column>
+                <property name="text">
+                 <string>Name</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_professors_courses">
+               <row>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </row>
+               <column>
+                <property name="text">
+                 <string>Course</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="2" colspan="2">
+            <widget class="QScrollArea" name="scrollArea_2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_6">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>408</width>
+                <height>523</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_5">
+               <item row="0" column="0">
+                <widget class="QTabWidget" name="Professors_sidetab">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="tab_20">
+                  <attribute name="title">
+                   <string>Info</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_7">
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label">
+                     <property name="text">
+                      <string>Title</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit_Prof_title"/>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_17">
+                     <property name="text">
+                      <string>First name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit_prof_first_name"/>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_18">
+                     <property name="text">
+                      <string>Second name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit_prof_second_name"/>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_16">
+                     <property name="text">
+                      <string>Age</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit_Prof_age"/>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_2">
+                     <property name="text">
+                      <string>Mobile</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit_Prof_mobile"/>
+                   </item>
+                   <item row="5" column="0">
+                    <widget class="QLabel" name="label_19">
+                     <property name="text">
+                      <string>Email</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="1">
+                    <widget class="QPlainTextEdit" name="plainTextEdit_Prof_email"/>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_21">
+                  <attribute name="title">
+                   <string>Add new</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_20">
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Prof_title"/>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Profage"/>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Prof1stname"/>
+                   </item>
+                   <item row="5" column="0">
+                    <widget class="QLabel" name="label_44">
+                     <property name="text">
+                      <string>Email</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="0" colspan="2">
+                    <layout class="QHBoxLayout" name="horizontalLayout_3">
+                     <item>
+                      <widget class="QPushButton" name="pushButton_Save_new_professor">
+                       <property name="text">
+                        <string>Save</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_Cancel_new_professor">
+                       <property name="text">
+                        <string>Cancel</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Prof2ndname"/>
+                   </item>
+                   <item row="5" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Profmail"/>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_45">
+                     <property name="text">
+                      <string>Title</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_41">
+                     <property name="text">
+                      <string>Second name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_43">
+                     <property name="text">
+                      <string>Mobile</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_40">
+                     <property name="text">
+                      <string>First name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_39">
+                     <property name="text">
+                      <string>Age</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QLineEdit" name="lineEdit_Profmob"/>
+                   </item>
+                   <item row="6" column="1">
+                    <spacer name="verticalSpacer_4">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_34">
+                  <attribute name="title">
+                   <string>Delete professor</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_21">
+                   <item row="0" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_4">
+                     <item>
+                      <widget class="QLabel" name="label_20">
+                       <property name="text">
+                        <string>Professor name</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="lineEdit_DeleteProf"/>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QPushButton" name="pushButton_Delete_professor">
+                     <property name="text">
+                      <string>Delete</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <spacer name="verticalSpacer_7">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="tab_5">
+                  <attribute name="title">
+                   <string>Add a course</string>
+                  </attribute>
+                  <layout class="QGridLayout" name="gridLayout_19">
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="lineEdit_add_course_to_prof_second"/>
+                   </item>
+                   <item row="4" column="0" colspan="2">
+                    <layout class="QHBoxLayout" name="horizontalLayout_7">
+                     <item>
+                      <widget class="QPushButton" name="pushButton_save_course_to_prof">
+                       <property name="text">
+                        <string>Save</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_cancel_add_course_to_prof">
+                       <property name="text">
+                        <string>Cancel</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QComboBox" name="comboBox_add_prof_to_course"/>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_49">
+                     <property name="text">
+                      <string>professor second name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="lineEdit_add_course_to_prof_first"/>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_48">
+                     <property name="text">
+                      <string>professor first name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_28">
+                     <property name="text">
+                      <string>Course</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <spacer name="verticalSpacer_10">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item row="2" column="0" colspan="4">
+            <widget class="QPushButton" name="pushButton_exportProfessors">
+             <property name="text">
+              <string>Export data of all professors</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

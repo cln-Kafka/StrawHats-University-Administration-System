@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Login.qml</file>
+        <file>HomePage.qml</file>
+        <file>AllClasses.qml</file>
+        <file>AllStudents.qml</file>
+        <file>AllProfessors.qml</file>
+        <file>ClassPage.qml</file>
+        <file>AddProfessor.qml</file>
+        <file>AddStudent.qml</file>
+        <file>Professor.qml</file>
+        <file>Student.qml</file>
+        <file>Welcome.qml</file>
+        <file>Resources/Fonts/Chalkboy.ttf</file>
+        <file>Resources/Fonts/DkCrayonCrumble-ddll.ttf</file>
+        <file>Resources/Images/blackBoard.png</file>
+        <file>Resources/Images/blackBoardWithStrawHats.png</file>
+        <file>Resources/Images/blackBoardWithStrawHats1.png</file>
+        <file>Resources/Images/blind.png</file>
+        <file>Resources/Images/CrumpledPaper.jpg</file>
+        <file>Resources/Images/CrumpledPaper.png</file>
+        <file>Resources/Images/eye.png</file>
+        <file>Resources/Images/farmer-hat.png</file>
+        <file>Resources/Images/hatIcon.ico</file>
+        <file>Resources/Images/hatIcon.png</file>
+        <file>Resources/Images/red-eye.png</file>
+        <file>Resources/Images/StrawHat.png</file>
+        <file>Resources/Images/TrialWelcomeScreen.png</file>
+        <file>Resources/Images/TrialWelcomeScreen1.png</file>
+    </qresource>
+</RCC>
