@@ -31,6 +31,6 @@ Gratitude goes out to our team members for their valuable contributions to this 
 
 </div>
 
-## License
+-----
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
